@@ -1,0 +1,23 @@
+using System.Text;
+using System;
+using System.Threading;
+
+namespace Laboratory.work
+{
+   internal class Program
+   {
+      static void Main(string[] args)
+      
+      {
+
+         Console.OutputEncoding = System.Text.Encoding.GetEncoding(1251);
+
+         Console.WriteLine("Студент: Подлесний Влад. ");
+         Console.WriteLine("Факультет: Інформаційні технології");
+         Console.WriteLine("Спеціальність: Інженер програмного забезпечення");
+         Console.WriteLine("Форма навчання: Денна");
+         Console.WriteLine("Група: 1-5");
+
+      } 
+   }  
+}
